@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="header">
+    <div  class="title-cv"><h1>CV Roman Yasinskyi</h1></div>
+</header>
+<main class="main">
+    <div class="container">
+        <div class="wrap-personal-info">
+            <div class="title-personal-info ">
+                <h3 class="divider">PERSONAL INFORMATION</h3>
+            </div>
+            <div class="box-personal-info">
+                <ul class="box-personal-info-left">
+                    <li><span>Email: </span><a href="mailto:svshok1@gmail.com">svshok1@gmail.com</a></li>
+                    <li><span>Skype: </span><a href="https://join.skype.com/invite/foqYdQ9NDTP6">Sv-Shok</a></li>
+                    <li><span>GitHub: </span> <a href="https://github.com/Sv-Shok">github.com/Sv-Shok</a></li>
+                    <li><span>Mobile number: </span> <a href="tel:+380666337522">+38 (066) 633 75 22</a></li>
+                    <li><span>Location: </span> <a href="https://goo.gl/maps/x5hDxYf9wyyJTFZJA">Ukraine, Ivano-Frankivsk</a></li>
+                </ul>
+                <div class="box-personal-info-avatar">
+                    <img src="ava.jpg" alt="ava">
+                </div>
+            </div>
+        </div>
+        <div class="wrap-about-me">
+            <div class="title-about-me">
+                <h3 class="divider">ABOUT ME</h3>
+            </div>
+            <div class="text-about-me vertical-divider">
+                I've been doing web development for the last year.
+                At the moment, I continue to actively study the frontend
+            </div>
+        </div>
+        <div class="wrap-skills">
+            <div class="title-skills">
+                <h3 class="divider">SKILLS</h3>
+            </div>
+            <div class="text-skills">
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>JavaScript</div>
+                <div>DOM, BOM</div>
+                <div>React, Redux</div>
+            </div>
+        </div>
+        <div class="wrap-code-example">
+            <div class="title-example">
+                <h3 class="divider">CODE EXAMPLE</h3>
+            </div>
+            <div class="text-code-example">
+                <p>
+                    <code>
+                        let palindromeChainLength = (n) => {<br>
+                        &ensp;let num = 0;<br>
+                        &ensp;let step = 0;<br>
+                        &ensp;if(step === 0) num = n;<br>
+                        &ensp;while(num){<br>
+                        &ensp; let revNum = (num + "").split("").reverse().join("");<br>
+                        &ensp; if(+revNum === num){<br>
+                        &ensp; return step;<br>
+                        &ensp;};<br>
+                        &ensp;num += +revNum;<br>
+                        &ensp;step++;<br>
+                        &ensp;}<br>
+                        };
+                    </code>
+                </p>
+
+            </div>
+        </div>
+        <div class="wrap-experience">
+            <div class="title-experience">
+                <h3 class="divider">EXPERIENCE</h3>
+            </div>
+            <div class="text-experience">
+                <ul>
+                    <li>- SoftServe course: <span>"HTML5 App Development Fundamentals"</span></li>
+                    <li>- SoftServe course: <span>"React online marathon"</span></li>
+                    <li>- Prometeus course: <span>"Web UI Fundamentals"</span></li>
+                    <li>- Learn JavaScript from site:  <span>learn.javascript.ru</span></li>
+                    <li>- Udemy course: <span>"React-Redux"</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrap-qualification">
+            <div class="title-qualification">
+                <h3 class="divider">ACADEMIC QUALIFICATIONS</h3>
+            </div>
+            <div class="text-qualification">
+                <div class="box-text-qualification">
+                    <p>2003-2006</p>
+                    <p>Vocational Training, "electro-countably computers." Higher Vocational School № 13</p>
+                </div>
+
+                <div class="box-text-qualification">
+                    <p>2007-2012</p>
+                    <p>Specialist in computer sciences, "Computer Ecological and Economic Monitoring"
+                        Open International University of Human Development "Ukraine"
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-language">
+            <div class="title-language">
+                <h3 class="divider">LANGUAGE</h3>
+            </div>
+            <div class="text-language">
+                <p>English  -  intermediate</p>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div>
+        © 2021 Sv-Shok
+    </div>
+</footer>
+</body>
+</html>
