@@ -1,0 +1,122 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: #536069;
+    /*border: 1px solid black;*/
+}
+.container{
+    width: 150vh;
+    box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+    border-radius: 7px;
+    margin: 5px 0 5px 0;
+    padding: 10px;
+}
+
+.box-personal-info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box-personal-info-left{
+    list-style-type: none;
+}
+.box-personal-info-left span{
+    font-size: 1.3em;
+}
+.box-personal-info-left li{
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+    border-radius: 2px;
+}
+.box-personal-info-left li > a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #536069;
+
+}
+.box-personal-info-left li > a:hover{
+    color: #09123a;
+    font-weight: bold;
+}
+
+.box-personal-info-avatar{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .6),
+    23px 0 20px -23px rgba(0, 0, 0, .6),
+    inset 0 0 40px rgba(0, 0, 0, .1);
+}
+
+.text-about-me{
+    display: inline-block;
+    font-size: 1.1em;
+    padding: 20px 10px;
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, .1);
+}
+
+.text-skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-skills > div{
+    color: #536069;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .6),
+    23px 0 20px -23px rgba(0, 0, 0, .6),
+    inset 0 0 40px rgba(0, 0, 0, .1);
+}
+
+.text-code-example{
+    display: inline-block;
+    padding: 5px 10px;
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, .1);
+}
+
+.text-experience{
+
+}
+.text-experience > ul{
+    list-style-type: circle;
+}
+.text-experience > ul > li{
+    font-size: 1.1em;
+    padding: 5px;
+}
+.text-experience > ul > li > span{
+    font-weight: 500;
+}
+.text-qualification{
+    font-size: 1.1em;
+}
+.box-text-qualification :first-child {
+    font-style: italic;
+}
+
+.divider{
+    border-bottom: 3px solid #bbb;
+}
+
+.vertical-divider{
+    border-left: 3px solid #bbb;
+}
+
+.text-language{
+    font-size: 1.1em;
+}
