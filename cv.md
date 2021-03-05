@@ -1,6 +1,7 @@
  **Full-Name:**
  
   ROMAN YASINSKYI 
+
 ________________
  **PERSONAL DETAILS:**
    
@@ -14,6 +15,7 @@ ________________
 **ABOUT ME:** 
 >I've been doing web development for the last year.
 >At the moment, I continue to actively study the frontend
+
 ________________
 **SKILLS:**
 
@@ -22,8 +24,8 @@ ________________
 - JavaScript;
 - DOM, BOM; 
 - React, Redux;
-________________
 
+________________
 **CODE EXAMPLE:**
 ```
    let palindromeChainLength = (n) => {
@@ -48,6 +50,7 @@ ________________
 - Prometeus course "Web UI Fundamentals"
 - Learn JavaScript from site  learn.javascript.ru
 - Udemy course "react-redux"
+
 ________________
 **ACADEMIC QUALIFICATIONS:**
 
